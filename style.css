@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.home img {
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    margin-top: 330px;
+    width: 600px;
+    padding: 50px 50px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container .social-handles {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.container .social-handles button {
+    padding: 10px; 
+    border-radius: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%; 
+    font-size: 3px;
+    font-weight: 700;
+    color: rgb(116, 151, 226);
+    border: 2px solid black;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.container .social-handles button i {
+    font-size: 18px;
+}
+
+.container .social-handles button:hover {
+    color: black;
+    border-radius: 12px;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.container .seperator {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+    align-items: center;
+}
+
+.container .seperator .inline-seperator {
+    height: 1px;
+    width: 100%;
+    display: flex;
+    background: rgb(56, 56, 56);
+    opacity: 0.2;
+    margin: 30px 0 16px;
+}
+
+.container .seperator p {
+    margin: 10px 0; 
+}
+
+.container form label{
+    color: rgb(73, 99, 248);
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    display: block;
+    margin-top: 10px;
+}
+
+.container form .inputs{
+    position: relative;
+
+}
+
+.container form .inputs input{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    height: 40px;
+    letter-spacing: 0.5px;
+    border: 2px solid burlywood;
+    background: transparent;
+    outline: none;
+    border-radius: 7px;
+    text-indent: 10px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.container form .inputs input:hover{
+    color: black;
+    border-radius: 9px;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+
+
+.container form .inputs i{
+    position: absolute;
+    font-size: 30px;
+    right: 10px;
+    top: 14px;
+    transition: all 0.5s ease;
+} 
+
+.contaier form .inputs input:focus{
+    border-color: #5222fd
+
+}
+
+.contaier form .inputs input:focus + i{
+    color: black
+}
+
+
+/* password section*/
+
+.container form .p-inputs{
+    position: relative;
+
+}
+
+.container form .p-inputs input{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    height: 40px;
+    letter-spacing: 0.5px;
+    border: 2px solid burlywood;
+    background: transparent;
+    outline: none;
+    border-radius: 7px;
+    text-indent: 10px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.container form .p-inputs input:hover{
+    color: black;
+    border-radius: 9px;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.container form .p-inputs i{
+    position: absolute;
+    font-size: 30px;
+    right: 10px;
+    top: 14px;
+    transition: all 0.5s ease;
+} 
+
+.contaier form .p-inputs input:focus{
+    border-color: #5222fd
+
+}
+
+.contaier form .p-inputs input:focus + i{
+    color: black
+}
+
+.container .submit{
+    width: 100%;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgb(61, 168, 255);
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.container form .submit:hover{
+    color: black;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.container .redirects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.container .redirects a{
+    color: #33169b;
+    font-weight: 600;
+    text-decoration: none;
+    text-underline-offset: 5px;
+    text-decoration-color: yellowgreen;
+}
+
+.container .redirects a:hover{
+    text-decoration: underline;
+}
+
+
+/*container-reverse*/
+
+/*ChatGPT*/
+/* Your existing CSS styles */
+
+.container-reverse {
+    /* Your existing container styles */
+    position: relative; /* Add this to ensure proper positioning of the rotated container */
+}
+
+.container-reverse {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transform: rotateY(180deg); /* Initially hide the reverse container */
+    transition: transform 0.5s ease; /* Add transition for smooth animation */
+}
+
+.container-reverse h1 {
+    /* Styles for the heading inside the reverse container */
+}
+
+.container-reverse form {
+    /* Styles for the form inside the reverse container */
+}
+
+/* END */
+
+
+.container-reverse {
+    margin-left: -50px;
+    margin-top: 330px;
+    width: 600px;
+    padding: 50px 50px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container-reverse .social-handles {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.container-reverse .social-handles button {
+    padding: 10px; 
+    border-radius: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%; 
+    font-size: 3px;
+    font-weight: 700;
+    color: rgb(116, 151, 226);
+    border: 2px solid black;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.container-reverse .social-handles button i {
+    font-size: 18px;
+}
+
+.container-reverse .social-handles button:hover {
+    color: black;
+    border-radius: 12px;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.container-reverse .seperator {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+    align-items: center;
+}
+
+.container-reverse .seperator .inline-seperator {
+    height: 1px;
+    width: 100%;
+    display: flex;
+    background: rgb(56, 56, 56);
+    opacity: 0.2;
+    margin: 30px 0 16px;
+}
+
+.container-reverse .seperator p {
+    margin: 10px 0; 
+}
+
+.container-reverse form label{
+    color: rgb(73, 99, 248);
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    display: block;
+    margin-top: 10px;
+}
+
+.container-reverse form .inputs{
+    position: relative;
+
+}
+
+.container-reverse form .inputs input{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    height: 40px;
+    letter-spacing: 0.5px;
+    border: 2px solid burlywood;
+    background: transparent;
+    outline: none;
+    border-radius: 7px;
+    text-indent: 10px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.container-reverse form .inputs input:hover{
+    color: black;
+    border-radius: 9px;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+
+
+.container-reverse form .inputs i{
+    position: absolute;
+    font-size: 30px;
+    right: 10px;
+    top: 14px;
+    transition: all 0.5s ease;
+} 
+
+.contaier-reverse form .inputs input:focus{
+    border-color: #5222fd
+
+}
+
+.contaier-reverse form .inputs input:focus + i{
+    color: black
+}
+
+
+/* password section*/
+
+.container-reverse form .p-inputs{
+    position: relative;
+
+}
+
+.container-reverse form .p-inputs input{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    height: 40px;
+    letter-spacing: 0.5px;
+    border: 2px solid burlywood;
+    background: transparent;
+    outline: none;
+    border-radius: 7px;
+    text-indent: 10px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.container-reverse form .p-inputs input:hover{
+    color: black;
+    border-radius: 9px;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.container-reverse form .p-inputs i{
+    position: absolute;
+    font-size: 30px;
+    right: 10px;
+    top: 14px;
+    transition: all 0.5s ease;
+} 
+
+.contaier-reverse form .p-inputs input:focus{
+    border-color: #5222fd
+
+}
+
+.contaier-reverse form .p-inputs input:focus + i{
+    color: black
+}
+
+.container-reverse .submit{
+    width: 100%;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgb(61, 168, 255);
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.container-reverse form .submit:hover{
+    color: black;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.container-reverse .redirects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.container-reverse .redirects a{
+    color: #33169b;
+    font-weight: 600;
+    text-decoration: none;
+    text-underline-offset: 5px;
+    text-decoration-color: yellowgreen;
+}
+
+.container-reverse .redirects a:hover{
+    text-decoration: underline;
+}
